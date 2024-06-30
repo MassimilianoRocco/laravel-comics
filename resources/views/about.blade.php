@@ -9,13 +9,16 @@
 </head>
 <body>
     <h1>About Comics</h1>
-    <ul>
         @foreach ($store as $comic)
-            <li>
-               Name: {{$comic["title"]}} <br>
-               Description: {{ $comic["description"] }}
-            </li>
+            <div class="info_container">
+                <div class="text_box">
+                    <h3>{{$comic["title"]}}</h3>
+                    <p>{{ $comic["description"]}}</p>
+                </div>
+                <div class="img_box">
+                    <img src= {{$comic["thumb"]}} > 
+                </div>
+            </div>
         @endforeach
-    </ul>
 </body>
 </html>

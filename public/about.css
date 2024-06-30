@@ -3,11 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-h1{
-    margin-left: 1rem;
+body{
+  background-color: darkgrey;
 }
 
-li{
-    margin: 1rem 0 1rem 1.5rem;
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.info_container{
+  padding: 1rem;
+  display: flex;
+}
+.text_box{
+  max-width: 50%;
+  margin-left: 1rem;
+  order: 2;
+}
+.img_box{
+  width: 200px;
+  order: 1;
 }
