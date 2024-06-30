@@ -7,10 +7,10 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>QUESTA E' LA HOME</h1>
+    <h1>Main Heroes List</h1>
     <ul>
-        @foreach ($textTest as $element)
-            <li>{{ $element }}</li>
+        @foreach ($heroes as $hero)
+            <li>{{ $hero["name"] }}</li>
         @endforeach
     </ul>
 </body>

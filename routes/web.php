@@ -27,5 +27,5 @@ Route::get('home', function () {
             "data"
         ]
     ];
-    return view('home', $data);
+    return view('home', config("store"));
 });
