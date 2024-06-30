@@ -16,6 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+
 Route::get('home', function () {
-    return view('home');
+    $data = [ 
+        "textTest" => [
+            "Sono",
+            "dentro",
+            "l'array",
+            "data"
+        ]
+    ];
+    return view('home', $data);
 });

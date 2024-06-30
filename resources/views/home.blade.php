@@ -8,5 +8,10 @@
 </head>
 <body>
     <h1>QUESTA E' LA HOME</h1>
+    <ul>
+        @foreach ($textTest as $element)
+            <li>{{ $element }}</li>
+        @endforeach
+    </ul>
 </body>
 </html>
