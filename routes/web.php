@@ -19,13 +19,9 @@ Route::get('/', function () {
 
 
 Route::get('home', function () {
-    $data = [ 
-        "textTest" => [
-            "Sono",
-            "dentro",
-            "l'array",
-            "data"
-        ]
-    ];
-    return view('home', config("store"));
+    return view('home', ['store' => config("store")]);
+});
+
+Route::get('about', function () {
+    return view('about',  ['store' => config("store")]);
 });
