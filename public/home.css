@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 body{
   background-color: darkgrey;
@@ -24,25 +25,30 @@ img{
 
 
 .container{
-  width: 1000px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 1rem;
 }
 
 .embla {
   overflow: hidden;
   width: 400px;
   color: white;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 10px;
+  box-shadow: black 0 0 5px 5px ;
 }
 .embla__container {
   display: flex;
 }
 .embla__slide {
   flex: 0 0 100%;
+}
+
+.text_box{
+  padding: 0.5rem;
+}
+
+.buttons_box{
+  padding: 0.2rem 0.5rem;
 }
 button{
   cursor: pointer;

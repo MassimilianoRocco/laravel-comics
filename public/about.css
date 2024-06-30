@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 body{
   background-color: darkgrey;
 }
-
+h1{
+  color: white;
+}
 img{
   width: 100%;
   object-fit: cover;
