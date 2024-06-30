@@ -12,6 +12,7 @@
     <title>About Comic</title>
 </head>
 <body>
+    @include('partials.header')
     <h1>About Comics</h1>
         @foreach ($store as $comic)
             <div class="info_container">

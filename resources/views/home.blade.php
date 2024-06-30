@@ -14,9 +14,10 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Main Comics List</h1>
-<div class="container">
 
+@include('partials.header')
+
+<div class="container">
     <div class="embla">
         <div class="embla__viewport">
             <div class="embla__container">
@@ -24,7 +25,6 @@
                     <div class="embla__slide">
                         <div class="text_box">
                             <p>{{ $comic["title"] }}</p>
-                            <a href="/about">Description</a>
                         </div>
                         <div class="thumb_box">
                             <img src= {{$comic["thumb"]}} >

@@ -7,8 +7,22 @@
 body{
   background-color: darkgrey;
 }
+
+header{
+  margin-bottom: 1rem;
+  background-color:slategray;
+  padding: 1rem;
+
+  a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+  }
+}
+
 h1{
   color: white;
+  padding: 1rem;
 }
 img{
   width: 100%;
@@ -23,6 +37,10 @@ img{
   max-width: 50%;
   margin-left: 1rem;
   order: 2;
+
+  p{
+    color: rgb(46, 44, 44);
+  }
 }
 .img_box{
   width: 200px;

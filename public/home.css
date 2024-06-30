@@ -8,6 +8,18 @@ body{
   background-color: darkgrey;
 }
 
+header{
+  margin-bottom: 1rem;
+  background-color:slategray;
+  padding: 1rem;
+
+  a{
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+  }
+}
+
 h1{
     margin-left: 1rem;
     color: white;
@@ -31,7 +43,7 @@ img{
 .embla {
   overflow: hidden;
   width: 400px;
-  color: white;
+  color: rgb(255, 255, 255);
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: black 0 0 5px 5px ;
