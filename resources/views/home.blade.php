@@ -1,6 +1,6 @@
     @extends("layouts.app")
 
-    
+
     @section("styles")
         <link rel="stylesheet" href="/home.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,10 +17,11 @@
             <div class="embla">
                 <div class="embla__viewport">
                     <div class="embla__container">
-                        @foreach ($store as $comic)        
+                        @foreach ($store as $index =>$comic)        
                             <div class="embla__slide">
                                 <div class="text_box">
                                     <p>{{ $comic["title"] }}</p>
+                                    <a href="/home/{{ $index }}">about this comic</a>
                                 </div>
                                 <div class="thumb_box">
                                     <img src= {{$comic["thumb"]}} >

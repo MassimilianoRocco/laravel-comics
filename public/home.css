@@ -5,12 +5,12 @@
     font-family: roboto, sans-serif;
 }
 body{
-  background-color: darkgrey;
+  background-image: url("https://www.shutterstock.com/image-photo/london-england-january-13-2018-600nw-1007817439.jpg");
 }
 
 header{
   margin-bottom: 1rem;
-  background-color:slategray;
+  background-color:rgba(112, 128, 144,0.9);
   padding: 1rem;
 
   a{
@@ -23,10 +23,6 @@ header{
 h1{
     margin-left: 1rem;
     color: white;
-}
-
-li{
-    margin: 1rem 0 1rem 1.5rem;
 }
 
 img{
@@ -43,10 +39,12 @@ img{
 .embla {
   overflow: hidden;
   width: 400px;
-  color: rgb(255, 255, 255);
+  color:black;
+  font-weight: bold;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: black 0 0 5px 5px ;
+  background-color: rgba(185, 170, 170, 0.7);
 }
 .embla__container {
   display: flex;
@@ -57,6 +55,12 @@ img{
 
 .text_box{
   padding: 0.5rem;
+  p{
+    font-size: 1.2rem;
+  }
+  a{
+    font-size: 0.9rem;
+  }
 }
 
 .buttons_box{
