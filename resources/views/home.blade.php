@@ -1,3 +1,6 @@
+    @extends("layouts.app")
+
+    
     @section("styles")
         <link rel="stylesheet" href="/home.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
