@@ -73,3 +73,7 @@ button{
 button:hover{
   background-color: #6AC5F1;
 }
+
+.active{
+  border-bottom: 2px solid #EF6F31;
+}
