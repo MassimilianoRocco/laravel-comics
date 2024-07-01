@@ -1,7 +1,7 @@
 <header>
     <nav>
-        <a href="/home">HOME</a>
-        <a href="/about">ABOUT</a>
+        <a href={{ route("section_home") }}>HOME</a>
+        <a href={{ route("section_about") }}>ABOUT</a>
     </nav>
     
 </header>

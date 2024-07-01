@@ -18,10 +18,10 @@ Route::get('/', function () {
 });
 
 
-Route::get('home', function () {
+Route::get('/home', function () {
     return view('home', ['store' => config("store")]);
-});
+})->name("section_home");
 
-Route::get('about', function () {
+Route::get('/about', function () {
     return view('about',  ['store' => config("store")]);
-});
+})->name("section_about");
