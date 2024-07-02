@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body{
+    background-image: url("https://www.shutterstock.com/image-photo/london-england-january-13-2018-600nw-1007817439.jpg");
+  }
+  
+  header{
+    margin-bottom: 1rem;
+    background-color:rgba(112, 128, 144,0.9);
+    padding: 1rem;
+  
+    a{
+      text-decoration: none;
+      padding: 1rem;
+      color: white;
+    }
+  }
